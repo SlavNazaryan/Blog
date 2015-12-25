@@ -1,3 +1,31 @@
-*{
-    background: #ffc;
+
+.btn-pri {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #4592db;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 10px 10px;
+}
+.btn-def {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #4592db;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 10px 10px;
+}
+.btn-ult {
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background: #4592db;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 10px 10px;
 }
