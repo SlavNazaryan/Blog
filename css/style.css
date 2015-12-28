@@ -46,8 +46,161 @@
     color: #579C00;
     background: #fff;
     float: right;
-
 }
 .botton{
     margin-left: 280px;
+}
+.logo{
+    display: block;
+    float: left;
+
+}
+.logo_viz{
+    font-size: 40px;
+    color: #737373;
+
+}
+.kont{
+    color: #579C00;
+    padding-left: 183px;
+}
+.login{
+    float: right;
+    margin-top: 10px;
+}
+.login_text{
+    font-size: 1.5em;
+    color: #579C00;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.login_text_s{
+    font-size: 1.2em;
+}
+.massage{
+    display: inline-block;
+    float: right;
+
+}
+.pencel{
+    font-size: 2.5em;
+    color: #fff;
+    border-radius: 5px;
+    background: #579C00;
+}
+.sup_top{
+    color: #fff;
+    font-size: 1.2em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #579C00;
+    margin-left: -8px;
+    margin-top: -110px;
+}
+.sup-top_rig{
+    margin-right: 200px;
+}
+.menu{
+    display: inline-block;
+    float: left;
+    margin-left: 165px;
+    margin-top: 10px;
+    
+}
+.menu_list {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.menu_list :hover{
+    color: #fff;
+    background: #579C00;
+    border-radius: 2px;
+    padding: 10px;
+}
+.menu_href{
+    color: #579C00;
+    font-size: 1em;
+    text-decoration: none;
+}
+.slider{
+    margin-top: 30px;
+}
+.search{
+    float: right;
+    margin-right: 180px;
+}
+.search__input{
+    border: none;
+    margin-top: -5px;
+}
+.search__icon{
+    background: #579C00;
+    color: #fff;
+    padding: 4px;
+    font-size: 1.5em;
+}
+.header_foot{
+    height: 95px;
+    background: #579C00;
+}
+.services{
+    width: 200px;
+    height: 70px;
+    background: #69B300;
+    border-radius: 3px;
+    display: inline-block;
+    float: left;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.service{
+    width: 200px;
+    height: 70px;
+    background: #69B300;
+    border-radius: 3px;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.services_icon{
+    font-size: 3.6em;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    float: left;
+
+}
+.services_text{
+    font-size: 1.5em;
+    color: #fff;
+    padding-top: 8px;
+    float: left;
+}
+.services_al{
+    font-size: 1em;
+    line-height: 1px;
+    float: left;
+}
+.service_icon{
+    font-size: 3em;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    float: left;
+
+}
+.service_text{
+    font-size: 1.5em;
+    color: #fff;
+    padding-top: 8px;
+    float: left;
+}
+.service_al{
+    font-size: 1em;
+    line-height: 1px;
+    float: left;
 }
