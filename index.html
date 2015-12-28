@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Online Shop</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/my-slider.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -18,6 +19,57 @@
     <![endif]-->
 </head>
 <body>
+<div class="container">
+    <header class="header">
+        <div class="header__nav">
+            <ul>
+                <li class="header__nav_list"><a href="#" class="glyphicon glyphicon-home header__nav_href hover hov_home"> Home</a></li>
+                <li class="header__nav_list"><a href="#" class="glyphicon glyphicon-user header__nav_href hover hov_user"> MyAccount</a></li>
+                <li class="header__nav_list"><a href="#" class="glyphicon glyphicon-shopping-cart header__nav_href hover hov_shop"> ShoppingCart</a></li>
+                <li class="header__nav_list"><a href="#" class="glyphicon glyphicon-ok header__nav_href hover hov_check"> Checkout</a></li>
+            </ul>
+        </div>
+        <div class="btn-group botton ">
+            <button type="button" class="btn btn-default dropdown-toggle btn__color" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="icon_size" src="img/engflag.png" alt="img">
+                English <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Armenian</a></li>
+                <li><a href="#">Russian</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle btn__color" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Doller <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dram</a></li>
+                <li><a href="#">Rubli</a></li>
+            </ul>
+        </div>
+    <div class="clear"></div>
+     <div class="logo">
+         <span class="logo_viz">LO</span>
+         <span class="logo_ziv">GO</span>
+
+     </div>
+
+
+
+
+        <div class="ism-slider" data-play_type="loop" id="my-slider">
+            <ol>
+                <li>
+                    <img src="img/1451312491836_208805.png">
+                    <div class="ism-caption ism-caption-0">PRIMO ZX<br>BORN FOR SHOOTING</div>
+                </li>
+                <li>
+                    <img src="img/1451312495909_313980.png">
+                    <div class="ism-caption ism-caption-0">ANDROID APPLICATIONS</div>
+                </li>
+            </ol>
+        </div>
+    </header>
 
 
 
@@ -27,6 +79,9 @@
 
 
 
+
+</div>
+<script src="js/ism-2.1-min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
